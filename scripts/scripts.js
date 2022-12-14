@@ -96,7 +96,7 @@ durationButton.addEventListener("click", changeDuration);
 function changeDuration() {
 
     var currentDuration = duration.innerHTML;
-    currentDuration = prompt("Please input the duration your renting the robot" +modelName.innerHTML, "for: ");
+    currentDuration = prompt("Please input the duration your renting the robot " +modelName.innerHTML);
     duration.innerHTML = currentDuration;
     recalculate();
 
